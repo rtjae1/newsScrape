@@ -2,6 +2,12 @@ body {
     background-image: url("../images/vintage_newspapers.jpg");
 }
 
+h1 {
+  border: solid;
+  margin: 1%;
+  padding: 1%;
+  background-color: slategray;
+}
 .article {
   border: solid;
   margin: 1%;
