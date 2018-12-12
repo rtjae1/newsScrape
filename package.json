@@ -1,26 +1,28 @@
 {
-  "name": "newsscrape",
+  "name": "news-scrape",
   "version": "1.0.0",
-  "description": "A web app that lets users view and leave comments on the latest news by scraping news from another site.",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rtjae1/newsScrape.git"
+    "url": "git+https://github.com/brijamfitz/news-scrape.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rtjae1/newsScrape/issues"
+    "url": "https://github.com/brijamfitz/news-scrape/issues"
   },
-  "homepage": "https://github.com/rtjae1/newsScrape#readme",
+  "homepage": "https://github.com/brijamfitz/news-scrape#readme",
   "dependencies": {
     "axios": "^0.18.0",
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.4",
     "express-handlebars": "^3.0.0",
-    "mongoose": "^5.3.14"
+    "mongodb": "^3.1.10",
+    "mongoose": "^5.3.14",
+    "morgan": "^1.9.1"
   }
 }
